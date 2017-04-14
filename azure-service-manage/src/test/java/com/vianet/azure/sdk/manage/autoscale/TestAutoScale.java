@@ -11,9 +11,6 @@ import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by chen.rui on 6/21/2016.
- */
 public class TestAutoScale {
 
     static String subscriptionId = "<your sub id>";

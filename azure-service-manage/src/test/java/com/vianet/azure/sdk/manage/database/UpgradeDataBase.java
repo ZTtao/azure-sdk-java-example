@@ -4,7 +4,6 @@ import com.microsoft.aad.adal4j.AuthenticationContext;
 import com.microsoft.aad.adal4j.AuthenticationResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import javax.naming.ServiceUnavailableException;
@@ -22,9 +21,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-/**
- * Created by chen.rui on 9/20/2016.
- */
 public class UpgradeDataBase {
 
     private final static String AUTHORITY = "https://login.chinacloudapi.cn/common";                //DON'T　CHANGE

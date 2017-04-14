@@ -3,10 +3,10 @@ package com.vianet.azure.sdk;
 
 public class Application {
 
-    public static final String TENTANT = "<your tentant id>";
-    public static final String CLIENT_ID = "3b352e04-a051-4bec-85f1-6eba2fc52df4";
-    public static final String CLIENT_SECRET = "123456";
-    public static final String SUB_ID = "<your sub id>";
+    public static final String TENTANT = " your tenlent id";
+    public static final String CLIENT_ID = "your client id";
+    public static final String CLIENT_SECRET = "";
+    public static final String SUB_ID = "e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb";
 
     public final static String AUTHORITY = "https://login.chinacloudapi.cn/";
     public final static String MANAGEMENT_EBDPOINT = "https://management.chinacloudapi.cn/";
