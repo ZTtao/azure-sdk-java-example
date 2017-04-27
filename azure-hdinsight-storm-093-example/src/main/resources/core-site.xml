@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>wasb://winstorm-2017-04-27t02-00-31-012z@45portalvhdsk4jkdbyx08kj.blob.core.chinacloudapi.cn</value>
+        <final>true</final>
+    </property>
+
+    <property>
+        <name>fs.azure.account.key.45portalvhdsk4jkdbyx08kj.blob.core.chinacloudapi.cn</name>
+        <value>your keys</value>
+    </property>
+
+    <property>
+        <name>fs.AbstractFileSystem.wasb.impl</name>
+        <value>org.apache.hadoop.fs.azure.Wasb</value>
+    </property>
+
+    <property>
+        <name>fs.wasb.impl</name>
+        <value>org.apache.hadoop.fs.azure.NativeAzureFileSystem</value>
+    </property>
+</configuration>

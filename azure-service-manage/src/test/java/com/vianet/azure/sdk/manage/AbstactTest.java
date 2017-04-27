@@ -15,8 +15,9 @@ public class AbstactTest {
 
     Configuration config = null;
 
-    public static final String TENTANT = "your tenlent id";
-    public static final String CLIENT_ID = "your client id";
+    public static final String TENTANT = "b388b808-0ec9-4a09-a414-a7cbbd8b7e9b";
+//    public static final String CLIENT_ID = "3b352e04-a051-4bec-85f1-6eba2fc52df4";
+    public static final String CLIENT_ID = "c5c7a321-3cbe-43f8-b0a9-4d12fe638a7e";
     public static final String CLIENT_SECRET = "123456";
     public static final String SUB_ID = "e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb";
     public final static String MANAGEMENT_EBDPOINT = "https://management.chinacloudapi.cn/";
